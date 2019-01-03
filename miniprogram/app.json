@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/userRegister/userRegister"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/home2.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/add2.png",
+        "iconPath": "images/add.png",
+        "pagePath": "pages/addFunction/addFunction",
+        "text": "业绩报送"
+      },
+      {
+        "selectedIconPath": "images/list2.png",
+        "iconPath": "images/list.png",
+        "pagePath": "pages/chooseLib/chooseLib",
+        "text": "业绩查询"
+      },
+      {
+        "selectedIconPath": "images/user2.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/userConsole/userConsole",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
